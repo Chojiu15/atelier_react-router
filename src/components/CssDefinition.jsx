@@ -2,7 +2,9 @@ import React from 'react';
 
 const CssDefinition = () => {
 	const stylus = {
-		textAlign: 'center'
+		textAlign: 'center',
+		width: '80%',
+		marginLeft: '10%'
 	};
 	return (
 		<div style={stylus}>
