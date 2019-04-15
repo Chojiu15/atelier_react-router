@@ -1,13 +1,9 @@
 import React from 'react';
+import styles from './stylus.module.css';
 
 const JsDefinition = () => {
-	const stylus = {
-		textAlign: 'center',
-		width: '80%',
-		marginLeft: '10%'
-	};
 	return (
-		<div style={stylus}>
+		<div className={styles.stylus}>
 			<h1>Le Javascript</h1>
 			<p>
 				Le JavaScript est un langage informatique utilisé sur les pages web. Ce langage à la particularité de s'activer

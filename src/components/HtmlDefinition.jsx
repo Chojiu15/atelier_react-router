@@ -1,13 +1,9 @@
 import React from 'react';
+import styles from './stylus.module.css';
 
 const HtmlDefinition = () => {
-	const stylus = {
-		textAlign: 'center',
-		width: '80%',
-		marginLeft: '10%'
-	};
 	return (
-		<div style={stylus}>
+		<div className={styles.stylus}>
 			<h1>Le HTML</h1>
 			<p>
 				L'HTML est un langage informatique utilisé sur l'internet. Ce langage est utilisé pour créer des pages web.

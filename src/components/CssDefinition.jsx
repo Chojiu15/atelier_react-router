@@ -1,13 +1,9 @@
 import React from 'react';
+import styles from './stylus.module.css';
 
 const CssDefinition = () => {
-	const stylus = {
-		textAlign: 'center',
-		width: '80%',
-		marginLeft: '10%'
-	};
 	return (
-		<div style={stylus}>
+		<div className={styles.stylus}>
 			<h1>Le CSS</h1>
 			<p>
 				Le terme CSS est l'acronyme anglais de Cascading Style Sheets qui peut se traduire par "feuilles de style en

@@ -1,13 +1,9 @@
 import React from 'react';
+import styles from './stylus.module.css';
 
 const Home = () => {
-	const stylus = {
-		textAlign: 'center',
-		width: '80%',
-		marginLeft: '10%'
-	};
 	return (
-		<div style={stylus}>
+		<div className={styles.stylus}>
 			<h1>Le developpement Front End</h1>
 			<p>
 				Le front-end c’est la partie du code qui est reçue par le client. Je rappelle que le client c’est notre
