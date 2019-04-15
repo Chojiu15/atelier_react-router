@@ -50,7 +50,7 @@ const App = () => {
     <BrowserRouter>
     <ul>
       <li>
-        <NavLink to='/' activeStyle={{color:'red', fontWeight:'bold'}}>Home</NavLink>
+        <NavLink exact to='/' activeStyle={{color:'red', fontWeight:'bold'}}>Home</NavLink>
       </li>
       <li>
         <NavLink to='/html'activeStyle={{color:'red', fontWeight:'bold'}}>HTML</NavLink>
@@ -59,7 +59,7 @@ const App = () => {
         <NavLink to='/css'activeStyle={{color:'red', fontWeight:'bold'}}>CSS</NavLink>
       </li>
       <li>
-        <NavLink to='js'activeStyle={{color:'red', fontWeight:'bold'}}>JS</NavLink>
+        <NavLink to='/js'activeStyle={{color:'red', fontWeight:'bold'}}>JS</NavLink>
       </li>
     </ul>
 
