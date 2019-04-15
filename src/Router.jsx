@@ -16,10 +16,10 @@ const MyRouter = () => {
 		<Router>
 			<div>
 				<nav style={navBar}>
-					<NavLink to='/'>Hello</NavLink>
-					<NavLink to='/html'>html</NavLink>
-					<NavLink to='/css'>css</NavLink>
-					<NavLink to='/js'>js</NavLink>
+					<NavLink to='/'>Home</NavLink>
+					<NavLink to='/html'>HTML</NavLink>
+					<NavLink to='/css'>CSS</NavLink>
+					<NavLink to='/js'>Javascript</NavLink>
 				</nav>
 				<Switch>
 					<Route path='/' exact component={Home} />
