@@ -4,18 +4,13 @@ import Home from './components/Home.jsx';
 import HtmlDefinition from './components/HtmlDefinition.jsx';
 import CssDefinition from './components/CssDefinition.jsx';
 import JsDefinition from './components/JsDefinition.jsx';
+import styles from './components/stylus.module.css';
 
 const MyRouter = () => {
-	const navBar = {
-		display: 'flex',
-		justifyContent: 'space-around',
-		marginTop: '2%',
-		marginBottom: '4%'
-	};
 	return (
 		<Router>
 			<div>
-				<nav style={navBar}>
+				<nav className={styles.navBar}>
 					<NavLink to='/'>Home</NavLink>
 					<NavLink to='/html'>HTML</NavLink>
 					<NavLink to='/css'>CSS</NavLink>
