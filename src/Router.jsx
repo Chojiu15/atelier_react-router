@@ -11,13 +11,22 @@ const MyRouter = () => {
 		<Router>
 			<div>
 				<nav className={styles.navBar}>
-					<NavLink to='/'>Home</NavLink>
-					<NavLink to='/html'>HTML</NavLink>
-					<NavLink to='/css'>CSS</NavLink>
-					<NavLink to='/js'>Javascript</NavLink>
+					<NavLink activeClassName={styles.activeLink} to='/home'>
+						Home
+					</NavLink>
+					<NavLink activeClassName={styles.activeLink} to='/html'>
+						HTML
+					</NavLink>
+					<NavLink activeClassName={styles.activeLink} to='/css'>
+						CSS
+					</NavLink>
+					<NavLink activeClassName={styles.activeLink} to='/js'>
+						Javascript
+					</NavLink>
 				</nav>
 				<Switch>
 					<Route path='/' exact component={Home} />
+					<Route path='/home' exact component={Home} />
 					<Route path='/html' exact component={HtmlDefinition} />
 					<Route path='/css' exact component={CssDefinition} />
 					<Route path='/js' exact component={JsDefinition} />
